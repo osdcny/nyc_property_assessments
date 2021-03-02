@@ -1,0 +1,140 @@
+Col_Number,Name,Description,Value
+1,PARID,"PARID Key uniquely identifies each assessment record. This field is a combination of Boro, Block, Lot, Easement & Sub-ID (only record type 3 properties have a sub-id all other record types will have 10 blanks at the end of the field)                             ",FALSE
+2,BORO,Borough. Borough Codes: 1 = Manhattan; 2 = Bronx; 3 = Brooklyn; 4 = Queens; 5 = Staten Island,FALSE
+3,BLOCK,Valid Block Ranges:  Manhattan: 1 to 2255; Bronx: 2260 to 5958; Brooklyn: 1 to 8955; Queens: 1 to 16350; Staten Island: 1 to 8050,FALSE
+4,LOT,Unique number within BORO/BLOCK,FALSE
+5,EASEMENT, Valid Easement Codes: Blank = No Easement; A = Air Rights; B = Non-Air Rights; E = Land Easement; F thru M = Used when property has more than one easements; N = Non-Transit; P = Piers; R = Railroads; S = Street; U = U.S. Government ,FALSE
+6,SUBIDENT_REUC,REUC only (Rectype  = 2 or 3),FALSE
+7,RECTYPE,Record Type: 1 = ORE; 2 = REUC Ident; 3 = REUC Sub Ident,FALSE
+8,YEAR,Four digit year,FALSE
+9,IDENT,REUC only (Rectype = 2 or 3),FALSE
+10,SUBIDENT,,FALSE
+11,ROLL_SECTION,REUC only (Rectype = 2 or 3),FALSE
+12,SECVOL,Section Volume Number (2 Digits each). Manhattan: 1-1 to 8-04; Bronx: 9-1 to 19-06; Brooklyn: 1-1 to 26-05; Queens: 1-1 to 63-03; Staten Island: 1-1 to 32-03,FALSE
+13,PYMKTLAND,Market Assessed Land Value. Values as of the Final Roll for the Previous Tax Year.,TRUE
+14,PYMKTTOT,Market Assessed Total Value. Values as of the Final Roll for the Previous Tax Year.,TRUE
+15,PYACTLAND,Actual Assessed Land Value. Values as of the Final Roll for the Previous Tax Year.,TRUE
+16,PYACTTOT,Actual Assessed Total Value. Values as of the Final Roll for the Previous Tax Year.,TRUE
+17,PYACTEXTOT,Actual Exemption Total Value. Values as of the Final Roll for the Previous Tax Year.,TRUE
+18,PYTRNLAND,Transitional Assessed Land Value. Values as of the Final Roll for the Previous Tax Year.,TRUE
+19,PYTRNTOT,Transitional Assessed Total Value. Values as of the Final Roll for the Previous Tax Year.,TRUE
+20,PYTRNEXTOT,Transitional Exemption Total Value. Values as of the Final Roll for the Previous Tax Year.,TRUE
+21,PYTXBTOT,Taxable Assessed Total. Values as of the Final Roll for the Previous Tax Year .,TRUE
+22,PYTXBEXTOT,Taxable Exemption Total. Values as of the Final Roll for the Previous Tax Year .,TRUE
+23,PYTAXCLASS,Property Tax Class. Values as of the Final Roll for the Previous Tax Year .,TRUE
+24,TENMKTLAND,Tentative Market Assessed Land Value . Values as of the publishing of the Tentative Assessment Roll in January.,TRUE
+25,TENMKTTOT,Tentative Market Assessed Total Value. Values as of the publishing of the Tentative Assessment Roll in January.,TRUE
+26,TENACTLAND,Tentative Actual Assessed Land Value. Values as of the publishing of the Tentative Assessment Roll in January.,TRUE
+27,TENACTTOT,Tentative Actual Assessed Total Value. Values as of the publishing of the Tentative Assessment Roll in January.,TRUE
+28,TENACTEXTOT,Tentative Actual Exemption Total Value. Values as of the publishing of the Tentative Assessment Roll in January.,TRUE
+29,TENTRNLAND,Tentative Transitional Assessed Land Value. Values as of the publishing of the Tentative Assessment Roll in January.,TRUE
+30,TENTRNTOT,Tentative Transitional Assessed Total Value. Values as of the publishing of the Tentative Assessment Roll in January.,TRUE
+31,TENTRNEXTOT,Tentative Transitional Exemption Total Value. Values as of the publishing of the Tentative Assessment Roll in January.,TRUE
+32,TENTXBTOT,Tentative Taxable Assessed Total. Values as of the publishing of the Tentative Assessment Roll in January.,TRUE
+33,TENTXBEXTOT,Tentative Taxable Exemption Total. Values as of the publishing of the Tentative Assessment Roll in January.,TRUE
+34,TENTAXCLASS,Property Tax Class. Values as of the publishing of the Tentative Assessment Roll in January.,TRUE
+35,CBNMKTLAND,Change By Notice Market Assessed Land Value. Values as of the  Change By Notice period in May.,TRUE
+36,CBNMKTTOT,Change By Notice Market Assessed Total Value. Values as of the  Change By Notice period in May.,TRUE
+37,CBNACTLAND,Change By Notice Actual Assessed Land Value. Values as of the  Change By Notice period in May.,TRUE
+38,CBNACTTOT,Change By Notice Actual Assessed Total Value. Values as of the  Change By Notice period in May.,TRUE
+39,CBNACTEXTOT,Change By Notice Actual Exemption Total Value. Values as of the  Change By Notice period in May.,TRUE
+40,CBNTRNTLAND,Change By Notice Transitional Assessed Land Value. Values as of the  Change By Notice period in May.,TRUE
+41,CBNTRNTOT,Change By Notice Transitional Assessed Total Value. Values as of the  Change By Notice period in May.,TRUE
+42,CBNTRNEXTOT,Change By Notice Transitional Exemption Total Value. Values as of the  Change By Notice period in May.,TRUE
+43,CBNTXBTOT,Change By Notice Taxable Assessed Total Value. Values as of the  Change By Notice period in May.,TRUE
+44,CBNTXBEXTOT,Change By Notice Taxable Exemption Total Value. Values as of the  Change By Notice period in May.,TRUE
+45,CBNTAXCLASS,Property Tax Class. Values as of the  Change By Notice period in May.,TRUE
+46,FINMKTLAND,Final Market Assessed Land Value. Values as of the publishing of the Final Assessment Roll in May.,TRUE
+47,FINMKTTOT,Final Market Assessed Total Value. Values as of the publishing of the Final Assessment Roll in May.,TRUE
+48,FINACTLAND,Final Actual Assessed Land Value. Values as of the publishing of the Final Assessment Roll in May.,TRUE
+49,FINACTTOT,Final Actual Assessed Total Value. Values as of the publishing of the Final Assessment Roll in May.,TRUE
+50,FINACTEXTOT,Final Actual Exemption Total Value . Values as of the publishing of the Final Assessment Roll in May.,TRUE
+51,FINTRNLAND,Final Transitional Assessed Land Value. Values as of the publishing of the Final Assessment Roll in May.,TRUE
+52,FINTRNTOT,Final Transitional Assessed Total Value. Values as of the publishing of the Final Assessment Roll in May.,TRUE
+53,FINTRNEXTOT,Final Transitional Exemption Total Value. Values as of the publishing of the Final Assessment Roll in May.,TRUE
+54,FINTXBTOT,Final Taxable Assessed Total Value. Values as of the publishing of the Final Assessment Roll in May.,TRUE
+55,FINTXBEXTOT,Final Taxable Exemption Total Value. Values as of the publishing of the Final Assessment Roll in May.,TRUE
+56,FINTAXCLASS,Property Tax Class. Values as of the publishing of the Final Assessment Roll in May.,TRUE
+57,CURMKTLAND,Current Market Assessed Land Value. Most current Values for this property.,TRUE
+58,CURMKTTOT,Current Market Assessed Total Value. Most current Values for this property.,TRUE
+59,CURACTLAND,Current Actual Assessed Land Value. Most current Values for this property.,TRUE
+60,CURACTTOT,Current Actual Assessed Total Value. Most current Values for this property.,TRUE
+61,CURACTEXTOT,Current Actual Exemption Total Value. Most current Values for this property.,TRUE
+62,CURTRNLAND,Current Transitional Assessed Land Value. Most current Values for this property.,TRUE
+63,CURTRNTOT,Current Transitional Assessed Total Value. Most current Values for this property.,TRUE
+64,CURTRNEXTOT,Current Transitional Exemption Total Value. Most current Values for this property.,TRUE
+65,CURTXBTOT,Current Taxable Assessed Total Value. Most current Values for this property.,TRUE
+66,CURTXBEXTOT,Current Taxable Exemption Total Value. Most current Values for this property.,TRUE
+67,CURTAXCLASS,Property Tax Class. Most current Values for this property.,FALSE
+68,PERIOD,"Field values are as follows: 0 =  Starting value for the new Assessment Year (only the prior year fields should have values); 1 = Tentative Roll has been published (Prior Year and Tentative fields have values); 2 = Change by Notice Period has ended (Prior Year, Tentative and CBN fields have values); 3 = Final Roll has been published (Prior Year, Tentative, CBN and final fields have values); 4 = A Remission has been entered for this property (either AV or EX)",FALSE
+69,NEWDROP,Indicates that the lot will be dropped at the end of the fiscal year (1 = New lot (The drop lot indicator will be updated later)),FALSE
+70,NOAV,A building in progress (1 = A building in progress),FALSE
+71,VALREF,The parcel's values are reflected in another lot (Y  = The parcel's values are reflected in another lot),FALSE
+72,BLDG_CLASS,Building Class. There is a direct correlation between the Building Class and the Tax Class.,FALSE
+73,OWNER,Owner's Name. Primary Owner of the property. ,FALSE
+74,ZONING,Zoning code from NYC Department of City Planning,FALSE
+75,HOUSENUM_LO,The lowest house number of the property,FALSE
+76,HOUSENUM_HI,The highest house number of the property,FALSE
+77,STREET_NAME,Street Name for the property,FALSE
+78,ZIP_CODE,Postal Zip code for the property,FALSE
+79,GEOSUPPORT_RC,Status of the address data verification from Geosupport. (Blank = No Geosupport processing attempted; 00 = Verified by Geosupport; All other values  = Geosupport exception existed),FALSE
+80,STCODE     ,Street Code. 10 Digit street code prefaced by borough code.,FALSE
+81,LOT_FRT,Lot Frontage in feet,FALSE
+82,LOT_DEP,Lot Depth in feet,FALSE
+83,LOR_IRREG,Irregular shaped lot (1 = Irregularly shaped lot),FALSE
+84,BLD_FRT,Building Frontage in feet,FALSE
+85,BLD_DEP,Building Depth in feet,FALSE
+86,BLD_EXT,Extension (E = Extension; G = Garage; EG = Extension and Garage),FALSE
+87,BLD_STORY,The number of stories/floors for the building  ,FALSE
+88,CORNER,"The code to indicate a corner lot on two streets (VALUES: 'NE', 'NW', 'SE', 'SW' & 'CR')",FALSE
+89,LAND_AREA,"Total Land Area (If not 0, Total Land Area)",FALSE
+90,NUM_BLDG,The Number of Buildings on the property,FALSE
+91,YRBUILT,The year the building was constructed,FALSE
+92,YRBUILT_RANGE,"The last year of the range. If built over several years, this last year of the range. Otherwise it is 0.",FALSE
+93,YRBUILT_FLAG,Year Built is an estimate (E = Year Built is an estimate),FALSE
+94,YRALT1,"Year of alteration. If building was altered, this is year of alteration.",FALSE
+95,YRALT1_RANGE,"Last year of the alteration. If alteration took more than 1 year, this is the last year of the alteration.",FALSE
+96,YRALT2,"Year of second alteration. If building class was altered twice, this is year of second alteration.",FALSE
+97,YRALT2_RANGE,"Last year of the second alteration. If 2nd alteration took more than 1 year, this is last year of the alteration.",FALSE
+98,COOP_APT,Number of residential units.,FALSE
+99,UNITS, ,FALSE
+100,REUC_REF,Contains the ident number (alpha/numeric) for REUC properties. Contains the ident number (alpha/numeric) for REUC properties (Real Estate of Utility Corporations Tax Class 3 only),FALSE
+101,APTNO,Apartment Number for condominium properties,FALSE
+102,COOP_NUM,Coop identification number,FALSE
+103,CPB_BORO,Borough code (1 - 5) for the community planning board.,FALSE
+104,CPB_DIST,Community planning board number,FALSE
+105,APPT_DATE,Date of the most recent apportionment,FALSE
+106,APPT_BORO,Apportionment Borough,FALSE
+107,APPT_BLOCK,Apportionment Block,FALSE
+108,APPT_LOT,Apportionment Lot,FALSE
+109,APPT_EASE,Apportionment Easement,FALSE
+110,CONDO_Number,Condo identification number,FALSE
+111,CONDO_SFX1,C = Commercial unit; R= Residential; Blank = Entire condo is either all residential or all commercial,FALSE
+112,CONDO_SFX2,Suffix 1 sequence number,FALSE
+113,CONDO_SFX3,Not Used,FALSE
+114,UAF_LAND,Land percent of common interest in the entire condo,FALSE
+115,UAF_BLDG,Building percent of common interest in the condo,FALSE
+116,PROTEST_1,Protest code (3 characters field): 1st character 1 = form TC101 (generally for classes 2 and 4); 5 = form TC105 (REUC); 6 = form TC106 ( reclass); 8 = form TC108 (class 1 ); 9 = form TC109 (condos); 2nd character indicates duplicate; 3rd character not used,FALSE
+117,PROTEST_2,Indicates a second protest on the property. Same Protest Codes.,FALSE
+118,PROTEST_OLD,Same codes as the protest indicator. Same Protest Codes.,FALSE
+119,ATTORNEY_GROUP1,Protest Attorney identification number,FALSE
+120,ATTORNEY_GROUP2,Protest Attorney identification number,FALSE
+121,ATTORNEY_GROUP_OLD,Protest Attorney identification number,FALSE
+122,GROSS_SQFT,Gross Square Footage of the building,FALSE
+123,HOTEL_AREA_GROSS,Hotel Area Gross Square Footage,FALSE
+124,OFFICE_AREA_GROSS,Office Area Gross Square Footage,FALSE
+125,RESIDENTIAL_AREA_GROSS,Residential Area Gross Square Footage,FALSE
+126,RETAIL_AREA_GROSS,Retail Area Gross Square Footage,FALSE
+127,LOFT_AREA_GROSS,Loft Area Gross Square Footage,FALSE
+128,FACTORY_AREA_GROSS,Factory Area Gross Square Footage,FALSE
+129,WAREHOUSE_AREA_GROSS,Warehouse Area Gross Square Footage,FALSE
+130,STORAGE_AREA_GROSS,Storage Area Gross Square Footage,FALSE
+131,GARAGE_AREA,Garage Area Gross Square Footage,FALSE
+132,OTHER_AREA_GROSS,Other Area Gross Square Footage,FALSE
+133,REUC_DESCRIPTION,REUC Description,FALSE
+134,EXTRACTDT,Data extract date. Format is YYYYMMDD.,FALSE
+135,PYTAXFLAG,"Taxable Flag ('T' = Taxable,  'A' = Actual or blank)",FALSE
+136,TENTAXFLAG,"Tentative Taxable Flag ('T' = Taxable,  'A' = Actual or blank)",FALSE
+137,CBNTAXFLAG,"Change By Notice Taxable Flag ('T' = Taxable,  'A' = Actual or blank)",FALSE
+138,FINTAXFLAG,"Final Taxable Flag ('T' = Taxable,  'A' = Actual or blank)",FALSE
+139,CURTAXFLAG,"Current Taxable Flag ('T' = Taxable,  'A' = Actual or blank)",FALSE
